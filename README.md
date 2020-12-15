@@ -40,3 +40,27 @@ Gcc tool chain prebuild set
 - [x86_64-8.1.0-release-posix-seh-rt_v6-rev0-mingw64.7z](https://github.com/xzzh999/gcc-tool-chain-prebuild/releases/download/0.1/x86_64-8.1.0-release-posix-seh-rt_v6-rev0-mingw64.7z)
 - [x86_64-6.4.0-release-posix-seh-rt_v5-rev0-mingw64.7z](https://github.com/xzzh999/gcc-tool-chain-prebuild/releases/download/0.1/x86_64-6.4.0-release-posix-seh-rt_v5-rev0-mingw64.7z)
 
+
+
+## Find System Glibc Version
+
+```shell
+ls -l /lib/libc.so.*
+```
+
+```shell
+/lib/libc.so.6
+```
+
+```shell
+ldd --version
+```
+
+
+
+## Find Dependency
+
+```
+objdump -x | grep NEEDED
+```
+
