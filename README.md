@@ -1,4 +1,4 @@
-# gcc-tool-chain-prebuild
+# gcc-toolchain-prebuild
 Gcc tool chain prebuild set
 
 
@@ -21,15 +21,15 @@ Gcc tool chain prebuild set
 
 ### 3. linaro 
 
-- [tool-chain-binaries](https://releases.linaro.org/components/toolchain/binaries/)
+- [toolchain-binaries website](https://releases.linaro.org/components/toolchain/binaries/)
 
 ### 4. musl
 
-- [tool-chains](https://win.musl.cc/) 
+- [toolchains website](https://win.musl.cc/) 
 
 ### 5. Sourcery
 
-- [tool-chain-services](https://www.mentor.com/embedded-software/toolchain-services/)
+- [toolchain-services website](https://www.mentor.com/embedded-software/toolchain-services/)
 
 
 
