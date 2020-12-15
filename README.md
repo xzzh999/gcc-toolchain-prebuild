@@ -42,6 +42,34 @@ Gcc tool chain prebuild set
 
 
 
+## Goland Cross Build Settings
+
+- windows build to armv7l
+
+  `Environment`:
+
+  ```
+  CC=arm-none-linux-gnueabi-gcc;CXX=arm-none-linux-gnueabi-c++;CGO_ENABLED=1;GOOS=linux;GOARCH=arm;GOARM=7
+  ```
+
+  `Go tool arguments`:
+
+  for static library
+
+  ```
+  -buildmode=c-archive -o libXXX.a
+  ```
+
+  for dynamic library
+
+  ```
+  -buildmode=c-shared -o libXXX.so
+  ```
+
+  and let  `Use all custom build tags` selected
+
+  
+
 ## Find System Glibc Version
 
 ```shell
@@ -63,4 +91,6 @@ ldd --version
 ```
 objdump -x | grep NEEDED
 ```
+
+
 
