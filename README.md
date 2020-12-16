@@ -106,7 +106,7 @@ ldd --version
 
 
 
-## Find Dependency
+## Find Missing Dependency
 
 ```
 objdump -x | grep NEEDED
