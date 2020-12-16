@@ -80,7 +80,15 @@ Gcc tool chain prebuild set
 
   and let  `Use all custom build tags` selected
 
-  
+
+
+- windows build to ubuntu 64 bit, etc.
+
+  ```
+  GOOS=linux;GOARCH=amd64
+  ```
+
+
 
 ## Find System Glibc Version
 
