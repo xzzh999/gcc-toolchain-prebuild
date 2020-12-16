@@ -35,12 +35,24 @@ Gcc tool chain prebuild set
 
 ## MinGW-w64 for Windows Compiler Binaries
 
+​	Reference page: 
+
+​	[[MinGW-w64 - for 32 and 64 bit Windows Download]](https://sourceforge.net/projects/mingw-w64/files/)
+
+​    for win64
+
 ​	tested on windows 7 64 to build to windows 64
 
 - [x86_64-8.1.0-release-posix-seh-rt_v6-rev0-mingw64.7z](https://github.com/xzzh999/gcc-tool-chain-prebuild/releases/download/0.1/x86_64-8.1.0-release-posix-seh-rt_v6-rev0-mingw64.7z)
 - [x86_64-6.4.0-release-posix-seh-rt_v5-rev0-mingw64.7z](https://github.com/xzzh999/gcc-tool-chain-prebuild/releases/download/0.1/x86_64-6.4.0-release-posix-seh-rt_v5-rev0-mingw64.7z)
 
+​	for  win32
 
+- [i686-8.1.0-release-posix-sjlj-rt_v6-rev0-mingw64.7z](https://github.com/xzzh999/gcc-toolchain-prebuild/releases/download/0.1/i686-8.1.0-release-posix-sjlj-rt_v6-rev0-mingw64.7z)
+
+​	for both win32/win64
+
+- [mingw64-10.2.0-crt-8.0.0-with-ada-32+64.7z](https://github.com/xzzh999/gcc-toolchain-prebuild/releases/download/0.1/mingw64-10.2.0-crt-8.0.0-with-ada-32+64.7z)
 
 ## Goland Cross Build Settings
 
